@@ -327,6 +327,11 @@ header .header-content .header-content-inner p {
 .text-primary {
   color: #F0a956;
 }
+
+.text-primary-icon{
+    color:#514c45
+}
+
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
