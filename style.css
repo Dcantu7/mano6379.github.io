@@ -39,6 +39,12 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+/*text color for program headings*/
+.service-h3{
+    color:#F0a956
+}
+
+
 p {
   font-size: 16px;
   line-height: 1.5;
