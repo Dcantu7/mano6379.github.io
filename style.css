@@ -65,6 +65,31 @@ p {
     opacity: 0.9;
 }
 
+.bg-cwd{
+    background-color: #006378;
+    position: relative;
+  width: 100%;
+  min-height: auto;
+ 
+    
+     background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 200, 0.45), 
+      rgba(0, 0, 50, 0.45)
+    ),
+    /* bottom, image */
+    url('assests/CWD-Program.jpg');
+  background-repeat: no-repeat;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size:cover;
+  -o-background-size: cover;
+  background-position: center;
+    
+    
+}
+
 .bg-programs{
     background-color: #006378;
 }
@@ -477,3 +502,16 @@ src: url('/HAMBH___.TTF'),
 url('HamburgerHeaven.eot');
 }
 h1, h2 { font-family: 'HamburgerHeaven', Times, serif; }
+
+
+/*tinted image for signUp.html*/
+.tinted-image {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(image.jpg);
+}
